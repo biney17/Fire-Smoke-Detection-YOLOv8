@@ -1,0 +1,23 @@
+# Environnement virtuel
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Poids du modèle
+*.pt
+*.h5
+*.ckpt
+
+# Datasets
+data/
+dataset/
+dataset_split/
+
+# Résultats YOLO
+runs/
+
+# Variables d'environnement
+.env
